@@ -1,2 +1,1 @@
-# alx-low_level_programming
-hello world in C
+HELLO_WORLD IN C Training
