@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
  * main - entry point
  *
@@ -11,11 +8,15 @@
 
 int main(void)
 {
-	char x;
+	int digit = 0;
 
-	for (x = 0; x < 10; x++)
-	{putchar(x + '0');
+	while (digit <= '9')
+	{
+		/*convert digit to ASCII representation*/
+		putchar(digit + '0');
+		digit++;
 	}
 	putchar('\n');
 	return (0);
 }
+
