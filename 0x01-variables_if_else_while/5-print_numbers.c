@@ -10,7 +10,10 @@ int main(void)
 
 	while (digit < 10)
 	{
-		printf("%d", digit);
+		char buffer[11];
+
+		snprintf(buffer, 11, "%d", digit);
+		printf("%s", buffer);
 		digit++;
 	}
 	return (0);
