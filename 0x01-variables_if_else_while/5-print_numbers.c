@@ -6,9 +6,12 @@
  */
 int main(void)
 {
-	for (int i = 0; i < 10; i++)
+	int digit = 0;
+
+	while (digit < 10)
 	{
-		printf("%d\n", i);
+		printf("%d\n", digit);
+		digit++;
 	}
 	return (0);
 }
