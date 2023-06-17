@@ -1,22 +1,14 @@
 #include <stdio.h>
-
 /**
  * main - entry point
- *
- * Description: print all single digit numbers
- *
- * Return: always 0 (success)
+ * Descrption: make numbers from 0-9
+ * Return: 0
  */
-
 int main(void)
 {
-	int digit = 0;
-
-	while (digit <= '9')
+	for (int i = 0; i < 10; i++)
 	{
-		printf("%i", digit);
-			digit++;
+		printf("%d\n", i);
 	}
-	printf("\n");
 	return (0);
 }
