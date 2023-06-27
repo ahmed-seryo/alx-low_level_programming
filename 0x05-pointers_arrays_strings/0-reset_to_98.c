@@ -1,13 +1,19 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * reset_to_98 - takes pointer to an int prameter
- * and update the value is pointer to 98
- * @n: int parameters
- * return: nothing
+ * main - derefencing pointers
+ *
+ * Return: Always 0.
  */
-
-void reset_to_98(int *n)
+int main(void)
 {
-	*n = 98;
+	int n;
+	int *p;
+
+	n = 402;
+	p = &n;
+	printf("n=%d\n", n);
+	*p = 98;
+	printf("n=%d\n", n);
+	return (0);
 }
