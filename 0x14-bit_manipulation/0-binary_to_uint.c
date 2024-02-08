@@ -11,6 +11,7 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int len = 0, count = 0, sum = 0;
+
 	if (b == NULL)
 		return (0);
 	len = _strlen(b);
@@ -33,6 +34,7 @@ unsigned int binary_to_uint(const char *b)
 int _strlen(const char *s)
 {
 	int c = 0;
+
 	while (s[c])
 		c++;
 	return (c);
